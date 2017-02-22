@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>國立清華大學資訊工程學系-高中生園地</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +23,7 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+	<link href="css/creative.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +44,11 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">清華資工 - 高中生園地<br></a>
+
+				
+				
+				
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,19 +58,28 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll tab" href="#about">系所簡介</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll tab" href="#portfolio">系館導覽</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll tab" href="#feature">系所特色</a>
+                    </li>
+					<li>
+                        <a class="page-scroll tab" href="#award">競賽成果</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll tab" href="#team">課外生活</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll tab" href="#contact">國際交換學生</a>
+                    </li>
+					<li>
+                        <a class="page-scroll tab" href="#contact">招生訊息</a>
+                    </li>
+					<li>
+                        <a class="page-scroll tab" href="#contact">聯絡我們</a>
                     </li>
                 </ul>
             </div>
@@ -78,15 +92,32 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-heading">歡迎來到清大資工系</div>
+                <h1 class="brand-heading">讓我們帶領你走進科技、追求夢想！</h1>
+				
+                <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
-    <section id="services">
+    <!-- About Section -->
+	<section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">系所簡介</h2>
+					<br>
+                </div>
+            </div>
+            <div class="col-lg-16">
+				<p class="large">本系前身「計算機管理決策研究所」成立於民國66年，初始僅招收碩士班研究生，72年增設博士班，77年改名為「資訊科學研究所」，79 年成立「資訊科學系」，招收大學部學生。84年起所、系合併稱「資訊科學系」設大學部、碩士班及博士班。86學年起更名「資訊工程學系」。增設大學部第二班改隸「電機資訊學院」，92學年度增設大學部第三班，100學年度起大學部入學新生分為電子資訊組及資訊工程組。目前每年招收約12名博士生，155名碩士生及127名大學生。 91年成立「資訊系統與應用研究所」，96學年度起每年招收4位博士生及35名碩士生。
+				<br><br>本系擁有國際知名的大師級教授，如李家同教授、陳文村教授、劉炯朗教授、張韻詩教授等；教師歷年來獲頒國內外各種崇高學術榮譽之比例冠於全國，且專任教師學術、教學經驗豐富。
+				<br><br>本系學生歷年來積極參加各項國內外的軟、硬體設計競賽，表現優異，頻傳佳績。近年來於全球性的競賽方面，獲得2016 NVIDIA Embedded Intelligent Robotic Challenge全國冠軍、ASC16 世界大學生超級計算機競賽一等獎、Super Computing 2014 Student Cluster Competition 冠軍、2013第8屆由田機器視覺獎人臉識別冠軍、2013及2014 Asia Student Supercomputing Challenge 亞軍及季軍等殊榮。國內競賽也榮獲諸多獎項，包括2012至2014連續三年全國學生叢集電腦競賽冠軍、2012台灣CUDA程式設計競賽第一名、第一屆HP台灣程式設計競賽第一名等。
+				</p>
+			</div>
+        </div>
+    </section>
+    <!--section id="系所簡介">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -121,15 +152,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">系館導覽</h2>
+                    <br>
                 </div>
             </div>
             <div class="row">
@@ -140,11 +171,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/macRoom.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>系計算機中心</h4>
+                        <p class="text-muted">Windows個人電腦、Mac實驗室</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -154,11 +185,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/dreamLab.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Dream Lab</h4>
+                        <p class="text-muted">集思廣益、讀書休息</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -168,11 +199,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/speechRoom.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>資工系演講廳(地演廳)</h4>
+                        <p class="text-muted">系上演講場地</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -182,11 +213,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/office1.JPG" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>資工系辦公室</h4>
+                        <p class="text-muted">資工系以及資工所的辦公室</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -196,11 +227,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/public1.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>台達館公共空間</h4>
+                        <p class="text-muted">討論知識、切磋學習</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -210,19 +241,19 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/cslibrary.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>資工系圖書館</h4>
+                        <p class="text-muted">安靜的讀書空間</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Feature Section -->
+    <section id="feature">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -301,7 +332,142 @@
             </div>
         </div>
     </section>
-
+	
+	<!--section id="award" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">競賽成果</h2>
+                    <br>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section-->
+	
+	<section class="no-padding" id="award">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/cslibrary.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/cslibrary.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/cslibrary.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/cslibrary.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/cslibrary.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/cslibrary.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
@@ -485,17 +651,11 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
+                                <h2>系計算機中心</h2>
+                                <p class="item-intro text-muted">提供相關課程教學之上機實習使用，主要設備為個人電腦，作業系統以微軟 Windows 7為主，共計100台；此外另有 Apple Mac 30台左右。個人電腦教學教室亦設有雷射印表機供系上學生列印教學文件。</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/macRoom.jpg" alt=""><br>
+								<img class="img-responsive img-centered" src="img/portfolio/328.jpg" alt="">
+                                
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -519,11 +679,9 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <h2>Dream Lab</h2>
+                                <p class="item-intro text-muted">位於資電館3樓，為系上學生集思廣益、讀書或是休息等自由運用的四次元空間。</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreamLab.jpg" alt="">
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -548,11 +706,9 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>資工系演講廳(地演廳)</h2>
+                                <p class="item-intro text-muted">位於資電館B1，可容納150人，系上舉辦的演講通常在此舉行。</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/speechRoom.jpg" alt="">
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -577,11 +733,10 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>資工系辦公室</h2>
+                                <p class="item-intro text-muted">位於台達館5樓526，為資工系以及資工所的辦公室。</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/office1.JPG" alt="">
+								<br><img class="img-responsive img-centered" src="img/portfolio/office2.JPG" alt="">
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -606,11 +761,12 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>台達館公共空間</h2>
+                                <p class="item-intro text-muted">台達館有很多明亮、寬敞的公共空間，部分配有白板更方便系上成員討論課業、活動。</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/public1.JPG" alt="">
+								<br><img class="img-responsive img-centered" src="img/portfolio/public2.JPG" alt="">
+								<br><img class="img-responsive img-centered" src="img/portfolio/public3.JPG" alt="">
+								<br><img class="img-responsive img-centered" src="img/portfolio/public4.JPG" alt="">
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -635,12 +791,10 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>資工系圖書館</h2>
+                                <p class="item-intro text-muted">位於資電館2樓，內有雜誌可供閱讀，並提供系上學生一個安靜的讀書空間。</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/cslibrary.jpg" alt="">
+								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
                     </div>
