@@ -24,6 +24,11 @@
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
 	<link href="css/creative.min.css" rel="stylesheet">
+	<link href="css/gallery.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="css/blueimp-gallery.css">
+	<link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,10 +75,10 @@
                         <a class="page-scroll tab" href="#portfolio">競賽成果</a>
                     </li>
                     <li>
-                        <a class="page-scroll tab" href="#team">課外生活</a>
+                        <a class="page-scroll tab" href="#activity">課外生活</a>
                     </li>
                     <li>
-                        <a class="page-scroll tab" href="#contact">國際交換學生</a>
+                        <a class="page-scroll tab" href="#exchange">國際交換學生</a>
                     </li>
 					<li>
                         <a class="page-scroll tab" href="#recruit">招生訊息</a>
@@ -408,7 +413,7 @@
         </div>
     </section>
 	
-	<section id="portfolio">
+	<section id="activity">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -417,12 +422,24 @@
                 </div>
             </div>
             <div class="row">
-                
+                 <div id="blueimp-image-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+					<div class="slides"></div>
+					<h3 class="title"></h3>
+					<a class="prev">‹</a>
+					<a class="next">›</a>
+					<a class="play-pause"></a>
+				</div>
+			</div>
+        </div>
+        <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+        <a data-slide="next" href="#media" class="right carousel-control">›</a>
+      </div>                          
+    </div>
             </div>
         </div>
     </section>
 	
-	<section id="portfolio" class="bg-light-gray">
+	<section id="exchange" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -825,6 +842,14 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+	<script src="js/gallery.js"></script>
+	
+	<script src="js/blueimp-helper.js"></script>
+	<script src="js/blueimp-gallery.js"></script>
+	<script src="js/blueimp-gallery-indicator.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/jquery.blueimp-gallery.js"></script>
+	<script src="js/demo/demo.js"></script>
 
 </body>
 
