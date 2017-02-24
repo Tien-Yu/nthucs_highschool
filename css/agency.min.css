@@ -120,6 +120,10 @@ span.project-title
 {
 	font-weight: bold
 }
+img.exchange
+{
+	width: 700px
+}
 .navbar-custom
 {
 	background-color:#222;
